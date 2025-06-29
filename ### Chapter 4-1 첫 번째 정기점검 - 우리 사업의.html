@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4-1: 첫 번째 정기점검 - 우리 사업의 기본 현황 파악하기</title>
+    <style>
+        /* 이전 챕터 기반 스타일 */
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+        body {
+            font-family: 'Pretendard', 'Malgun Gothic', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .ebook-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .chapter-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .chapter-label {
+            font-size: 1.1em;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+        .chapter-header h1 {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .content-body {
+            padding: 40px;
+        }
+
+        .content-body h4 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 70px 0 25px 0;
+            padding-left: 20px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .content-body h5 {
+             font-size: 1.2em;
+             font-weight: 600;
+             margin-top: 40px;
+             margin-bottom: 20px;
+        }
+
+        .content-body p, .content-body li {
+            font-size: 1.05em;
+            margin-bottom: 22px;
+        }
+
+        .content-body strong {
+            font-weight: 600;
+            color: #1c3d8a;
+        }
+        
+        .content-body code {
+            background-color: #f0f2f5;
+            color: #555;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'D2Coding', 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+        
+        .content-body ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .content-body ul li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .content-body ul li::before {
+            content: '•';
+            color: #667eea;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 0;
+        }
+        
+        blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid #6c757d;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 8px;
+            color: #495057;
+            font-size: 1em;
+        }
+
+        .content-image {
+            width: 100%;
+            max-width: 100%;
+            display: block;
+            margin: 40px auto 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .image-caption {
+            display: block;
+            max-width: 100%;
+            margin: 8px auto 60px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #6c757d;
+        }
+        
+        .chapter-summary {
+            background: #fffaf0;
+            border-top: 3px solid #fadfad;
+            padding: 30px;
+            margin-top: 70px;
+            border-radius: 8px;
+        }
+        .chapter-summary h4 {
+            border-left: none;
+            padding-left: 0;
+            margin-top: 0;
+            font-size: 1.3em;
+            text-align: center;
+        }
+         .chapter-summary ol {
+            padding-left: 20px;
+        }
+        .chapter-summary ol li {
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .ebook-container { margin: 10px auto; }
+            .content-body { padding: 30px 20px; }
+            .chapter-header h1 { font-size: 1.8em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ebook-container">
+        
+        <header class="chapter-header">
+            <p class="chapter-label">Chapter 4-1</p>
+            <h1>첫 번째 정기점검 - 우리 사업의 기본 현황 파악하기</h1>
+        </header>
+
+        <main class="content-body">
+
+            <p>우리는 매년 시간을 내어 우리 몸의 '건강검진'을 받습니다. 키와 몸무게를 재고, 혈압과 혈당을 체크합니다. 왜일까요? 내 몸의 현재 상태를 '객관적인 숫자'로 파악하고, 눈에 보이지 않는 문제를 미리 발견하여 더 큰 병을 예방하기 위함입니다. 우리의 몸을 소중히 여기기 때문입니다.</p>
+            <p>그렇다면, 당신의 삶과 미래가 걸려있는 '비즈니스'는 어떤가요? 마지막으로 당신의 사업에 대한 건강검진을 받아본 것은 언제이십니까? 
+            <p>대부분의 1인 기업가들은 "요즘 좀 바쁜 것 같아", "이 메뉴가 인기가 좋은 것 같아" 와 같은 막연한 '감'에 의존해 사업을 운영합니다.  이것은 자신의 심박수도 체크하지 않고 마라톤 풀코스를 뛰는 것과 같습니다.  열정만으로 달리다 보면, 어느 순간 탈진하여 쓰러질 수 있습니다. </p>
+            <p>이 장의 목표는 당신의 첫 <strong>'AI 비즈니스 주치의'</strong>와 함께, 당신 사업의 첫 번째 '정기점검'을 진행하는 것입니다.  이것은 복잡하고 어려운 분석이 아닙니다.  
+            <p>우리 사업의 혈압, 체온, 맥박과 같은 가장 기본적인 '활력 징후(Vital Signs)'를 측정하여, 막연한 '감'을 명확한 '사실'로 바꾸는 과정입니다.  이 장에서는 오프라인 카페와 온라인 강의 비즈니스, 두 가지 다른 유형의 사업을 동시에 점검하며, 이 '비즈니스 점검'의 원리가 모든 사업에 어떻게 적용될 수 있는지 보여드릴 것입니다. </p>
+
+            <img src="https://i.imgur.com/1PhWPez.jpeg" alt="안개 속에서 헤매는 모습과 나침반을 들고 명확한 길을 가는 모습의 대비" class="content-image" style="max-width: 650px;">
+            <p class="image-caption">&lt;막연한 '감'의 안개를 걷어내고, AI가 주는 '팩트'의 나침반으로 길을 찾습니다.&gt;</p>
+
+            <h4>왜 '정기점검'이 사업의 나침반이 되는가?</h4>
+            <p>정기적인 비즈니스 점검은 단순히 숫자를 확인하는 행위를 넘어, 당신의 사업을 올바른 방향으로 이끄는 '나침반'을 손에 쥐는 것과 같습니다. </p>
+            <ul>
+                <li><strong>'감'의 영역에서 '팩트'의 영역으로:</strong> "A가 인기 있는 것 같아"라는 주관적인 느낌은, "지난달, A는 312잔 팔렸고, B는 112잔 팔렸습니다"라는 객관적인 사실 앞에서 힘을 잃습니다.  사실에 기반한 의사결정은 당신의 소중한 시간과 돈을 낭비할 위험을 극적으로 줄여줍니다. </li>
+                <li><strong>성장을 이끄는 '레버'의 발견:</strong> 모든 비즈니스에는 성장을 이끄는 몇 개의 결정적인 '레버(Lever)'가 존재합니다.  그것은 특정 제품일 수도, 특정 요일일 수도, 특정 마케팅 채널일 수도 있습니다.  정기점검은 바로 그 '성장의 레버'가 무엇인지 정확히 찾아내어, 당신이 어디에 힘을 집중해야 할지 알려줍니다. </li>
+                <li><strong>조기 진단, 조기 처방:</strong> 건강검진에서 '혈압이 조금 높다'는 진단을 받으면, 우리는 식단을 조절하고 운동을 시작합니다.  사업도 마찬가지입니다.  "특정 상품의 판매량이 지난달 대비 10% 감소했다"는 사실을 조기에 발견하면, 간단한 프로모션이나 광고를 통해 문제를 해결할 수 있습니다.  이 작은 신호를 무시하고 방치하면, 나중에는 걷잡을 수 없는 위기로 번질 수 있습니다. </li>
+            </ul>
+
+            <h4>1단계: 'AI 비즈니스 주치의'와 함께 건강검진 준비하기</h4>
+            <p>우리의 첫 정기점검을 위해, <code>ChatGPT 유료 버전(Plus)</code>의 <strong>'고급 데이터 분석(Advanced Data Analysis)'</strong> 기능을 당신의 'AI 비즈니스 주치의'로 임명하겠습니다.  이 주치의는 당신이 건네는 '의료 기록(데이터 파일)'을 읽고, 당신의 질문에 답변할 모든 준비를 마친 상태입니다.  이제 우리가 할 일은, 정확한 진단을 위해 우리의 '의료 기록'을 준비하는 것뿐입니다. </p>
+
+            <img src="https://i.imgur.com/6AmI7lO.jpeg" alt="흰 가운을 입고 청진기와 데이터 차트를 든 AI 로봇 일러스트" class="content-image" style="max-width: 400px;">
+            <p class="image-caption">&lt;'AI 비즈니스 주치의'는 당신의 사업 데이터를 진단할 준비를 마쳤습니다.&gt;</p>
+
+            <ul>
+                <li><strong>준비물 (오프라인 카페 사례): <code>카페_매출.csv</code> 파일</strong><br>
+                - 지난 한 달간의 포스(POS)기 판매 기록을 엑셀로 정리한 파일입니다. <br>
+                - <strong>필수 열(Columns):</strong> `결제일시`, `메뉴명`, `카테고리`, `수량`, `결제금액` </li>
+
+            <p>이처럼 당신의 비즈니스 종류에 따라 데이터의 내용은 다르지만, '언제, 무엇이, 얼마나 팔렸는가'라는 기본 구조는 동일합니다.</p>
+
+            <h4>2단계: 첫 번째 문진(問診) - AI에게 기본 현황 묻기</h4>
+            <p>준비된 파일을 ChatGPT 대화창에 업로드하는 순간, 당신의 첫 비즈니스 검진이 시작됩니다. </p>
+            
+            <h5>첫 번째 프롬프트 (업무 브리핑)</h5>
+            <img src="https://i.imgur.com/J5lSIOz.png" alt="ChatGPT에 데이터 파일을 업로드하고 첫 지시를 내리는 화면" class="content-image">
+            <img src="https://i.imgur.com/VNIJ5jA.png" alt="ChatGPT에 데이터 파일을 업로드하고 첫 지시를 내리는 화면" class="content-image">
+            <p class="image-caption">&lt;AI 주치의에게 의료 기록(데이터)을 전달하고 첫 문진을 시작합니다.&gt;</p>
+
+            <p>이제, 당신의 주치의에게 사업의 가장 기본적인 활력 징후들을 하나씩 물어보겠습니다.</p>
+            
+            <h5>질문 1: "우리 사업의 '혈압과 체온'은 어떤가요?" (기본 총량 지표)</h5>
+            <ul>
+                <li><strong>[오프라인 카페 대표]:</strong> "지난달 우리 카페의 총매출액, 총 판매 잔 수, 그리고 영수증 1건당 평균 결제 금액(객단가)은 얼마였나요?" </li>
+            </ul>
+
+            <img src="https://i.imgur.com/YNBQT0f.png" alt="AI가 가장 많이 팔린 메뉴를 분석하고 가로 막대그래프로 보여주는 화면" class="content-image">
+            <img src="https://i.imgur.com/5uZE2tJ.png" alt="AI가 가장 많이 팔린 메뉴를 분석하고 가로 막대그래프로 보여주는 화면" class="content-image">
+            <p class="image-caption">&lt;카페의 총매출액, 총 판매 잔 수, 평균 객단가를 파악합니다.&gt;</p>
+
+            <h5>질문 2: "고객들은 어떤 '영양소'를 가장 좋아하나요?" (인기 상품/서비스 분석)</h5>
+            <img src="https://i.imgur.com/oxRoaZN.png" alt="AI가 가장 많이 팔린 메뉴를 분석하고 가로 막대그래프로 보여주는 화면" class="content-image">
+            <p class="image-caption">&lt;가장 많이 팔린 메뉴 순위와 판매량을 그래프로 한눈에 파악합니다.&gt;</p>
+
+            <h5>질문 3: "우리는 언제 가장 '활기'가 넘치나요?" (시간/채널별 성과 분석)</h5>
+             <img src="https://i.imgur.com/0T7qjVO.png" alt="AI가 요일별 매출액을 분석하여 막대그래프로 보여주는 화면" class="content-image">
+             <img src="https://i.imgur.com/wrNHxdo.png" alt="AI가 요일별 매출액을 분석하여 막대그래프로 보여주는 화면" class="content-image">
+            <p class="image-caption">&lt;데이터를 통해 우리 가게의 피크 타임과 비수기를 정확히 진단합니다.&gt;</p>
+
+            <h5>질문 4: "주치의로서, 이 차트에서 발견한 '의외의 사실'이 있나요?" (AI의 자율적 탐색)</h5>
+            <p>이 마지막 질문은 AI를 단순한 계산기에서 진정한 '주치의'로 만드는 가장 강력한 질문입니다. </p>
+             <img src="https://i.imgur.com/l8uwjpp.png" alt="AI가 데이터 패턴을 분석하여 새로운 사업 기회를 제안하는 대화 화면" class="content-image">
+             <img src="https://i.imgur.com/VU9S3sx.png" alt="AI가 데이터 패턴을 분석하여 새로운 사업 기회를 제안하는 대화 화면" class="content-image">
+            <p class="image-caption">&lt;AI 주치의는 당신이 놓쳤던 데이터 속 숨겨진 기회를 발견해 줍니다.&gt;</p>
+            
+            <p>이제 당신은 더 이상 어림짐작으로 사업을 운영하지 않습니다.  당신의 손에는 당신 사업의 현재 상태를 정확히 보여주는 '건강검진 결과표'가 들려 있습니다.  이 객관적인 데이터를 바탕으로, 다음 챕터에서는 우리 사업의 재무 상태를 더 깊이 들여다보고, 숨겨진 질병을 찾아내어 비즈니스를 더욱 튼튼하게 만드는 '정밀 검진'을 시작해 보겠습니다. </p>
+            
+        </main>
+    </div>
+
+</body>
+</html>
